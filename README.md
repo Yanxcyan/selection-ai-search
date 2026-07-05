@@ -17,12 +17,18 @@
 
 ## 安装方法
 
-1. 装一个 [Tampermonkey](https://www.tampermonkey.net/) 浏览器扩展
-2. 新建一个脚本，把 [`selection-ai-search.user.js`](./selection-ai-search.user.js) 的内容整个粘贴进去，保存
-3. 打开任意网页，Tampermonkey 菜单里点「划词AI搜索 - 设置」，填上你的 API Key
-4. 选中一段文字，按 `Alt+Q` 试试
+先装一个 [Tampermonkey](https://www.tampermonkey.net/) 浏览器扩展，然后任选一种方式安装脚本：
 
-也可以把 `.user.js` 文件直接拖进已安装 Tampermonkey 的浏览器窗口，会自动弹出安装确认。
+**方式一（推荐）**：点开 [`selection-ai-search.user.js`](./selection-ai-search.user.js)，再点页面右上角的 **Raw** 按钮，Tampermonkey 会自动识别并弹出安装确认页，点安装即可。
+
+**方式二（手动粘贴）**：
+1. 点开 Tampermonkey 扩展菜单，选「新建脚本」
+2. 打开 [`selection-ai-search.user.js`](./selection-ai-search.user.js)，把里面的内容整个复制，替换掉新建脚本里的默认内容
+3. 保存
+
+安装完成后：
+1. 打开任意网页，Tampermonkey 菜单里点「划词AI搜索 - 设置」，填上你的 API Key
+2. 选中一段文字，按 `Alt+Q` 试试
 
 ## 配置说明
 
